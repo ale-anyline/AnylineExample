@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="X5k-f2-b5h">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gAE-YM-kbH">
+            <objects>
+                <viewController id="X5k-f2-b5h" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y8P-hJ-Z43"/>
+                        <viewControllerLayoutGuide type="bottom" id="9ZL-r4-8FZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yd7-JS-zBw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="495" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="21" y="567" width="335" height="2"/>
+                                <variation key="heightClass=regular-widthClass=compact" image="ShadowDivider">
+                                    <mask key="constraints">
+                                        <include reference="2386"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="2386" firstItem="495" firstAttribute="height" constant="2"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2386"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="515" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="22" y="531" width="335" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.85882352941176465" green="0.85882352941176465" blue="0.85882352941176465" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                                <rect key="contentStretch" x="0" y="0" width="1" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" customColorSpace="sRGB" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                        <color key="tintColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="495"/>
+                                <exclude reference="515"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="2380"/>
+                                <exclude reference="2381"/>
+                                <exclude reference="2382"/>
+                                <exclude reference="2391"/>
+                                <exclude reference="2392"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="495"/>
+                                <include reference="515"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="2380"/>
+                                <include reference="2381"/>
+                                <include reference="2382"/>
+                                <include reference="2391"/>
+                                <include reference="2392"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint id="2380" firstItem="495" firstAttribute="leading" secondItem="yd7-JS-zBw" secondAttribute="leadingMargin" constant="5"/>
+                            <constraint id="2381" firstItem="yd7-JS-zBw" firstAttribute="trailingMargin" secondItem="495" secondAttribute="trailing" constant="3"/>
+                            <constraint id="2382" firstItem="9ZL-r4-8FZ" firstAttribute="top" secondItem="495" secondAttribute="bottom" constant="98"/>
+                            <constraint id="2391" firstItem="515" firstAttribute="centerX" secondItem="yd7-JS-zBw" secondAttribute="centerX" constant="2"/>
+                            <constraint id="2392" firstItem="495" firstAttribute="centerY" secondItem="515" secondAttribute="bottom" constant="15"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XAI-xm-WK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="349" y="339"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ShadowDivider" width="375" height="10"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina47"/>
+    </simulatedMetricsContainer>
+</document>
