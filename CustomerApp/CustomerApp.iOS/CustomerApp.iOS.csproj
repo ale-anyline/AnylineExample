@@ -216,7 +216,7 @@
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="AnylineXamarinSDK.iOS, Version=3.23.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="AnylineXamarinSDK.iOS">
       <HintPath>..\..\packages\Anyline.Xamarin.SDK.iOS.3.23.0\lib\Xamarin.iOS10\AnylineXamarinSDK.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Card.IO, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
