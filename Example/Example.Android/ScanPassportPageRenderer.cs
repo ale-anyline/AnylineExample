@@ -26,7 +26,7 @@ namespace Example.Droid
         private MrzScanView _scanView;
 
         // Stamp License
-        private readonly string _licenseKey = "<A License Key>";
+        private readonly string _licenseKey = "eyJzY29wZSI6WyJBTEwiXSwicGxhdGZvcm0iOlsiaU9TIiwiQW5kcm9pZCIsIldpbmRvd3MiXSwidmFsaWQiOiIyMDE4LTEwLTA0IiwibWFqb3JWZXJzaW9uIjoiMyIsImlzQ29tbWVyY2lhbCI6ZmFsc2UsInRvbGVyYW5jZURheXMiOjMwLCJzaG93UG9wVXBBZnRlckV4cGlyeSI6dHJ1ZSwiaW9zSWRlbnRpZmllciI6WyJjb20uY29tcGFueW5hbWUiXSwiYW5kcm9pZElkZW50aWZpZXIiOlsiY29tLmNvbXBhbnluYW1lIl0sIndpbmRvd3NJZGVudGlmaWVyIjpbImNvbS5jb21wYW55bmFtZSJdfQpTUi9CWGlvamVXRUNFV3ZueW8xUjdpWFlTVGNoNkJxMUtsdnVWZ1VMUUoxRHk4cUVydWNVcXRGNnBEL0I5c0tSNml4bTc3MjVoSkNYM2UwSUdMNmZrdEJCbmpwN09zMW51YWlmenczcnVCcmxRNGdJK3h5ZmhXSmJjSFpoOS94T1lsQVMwOXhqdGJTRGRWV0VyNEN0OUlTUGkxcjljSnNqS0NPUWdMcXlsdE1NZTJPTENqeHR3RlV1OHg3eGE0d3V2dzlKMm54UUVKdURGaWQ3WERXRHU1M054MlVUc3JwR1R5YnNwRUJmSmd5WDhJSGhYdFpIL1ZpOWx1RjFTajFmZy9IU2svYlhnWDk4cGorUHk2SmR3SFB4UTI4eTh6VHJwUDN5Q2swRklDMTlQRTR3czhmZVJUa1dTeHpTNjNBZ2VseTZCNzVkSGw5UzFCNWsyZVFNMlE9PQ";
 
         public ScanPassportPageRenderer(Context context) : base(context)
         {
