@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname">
-	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
-	<application android:label="Example.Android"></application>
+  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
+	<application android:hardwareAccelerated="true" android:label="Example.Android"></application>
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-feature android:name="android.hardware.camera" android:required="false"/>
+  <uses-feature android:name="android.hardware.camera.flash"/>
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
 </manifest>
